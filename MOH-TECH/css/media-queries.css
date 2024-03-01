@@ -1,0 +1,47 @@
+/* For small devices (576px and below) */
+@media (max-width: 576px) {
+    /* Adjust the font size of headings */
+    h2 {
+        font-size: 24px;
+    }
+    /* Center align the text in the contact section */
+    .contact h2, .contact p, .container-contact {
+        text-align: center;
+    }
+    /* Adjust the padding of the footer */
+    footer {
+        padding: 20px 10px;
+    }
+}
+
+/* For medium devices (768px and below) */
+@media (max-width: 768px) {
+    /* Adjust the font size of headings */
+    h2 {
+        font-size: 28px;
+    }
+    /* Reduce the margin between social icons */
+    .social-icons a {
+        margin-bottom: 8px;
+    }
+    /* Reduce the margin between footer contact information */
+    .footer-contact p {
+        margin: 3px 0;
+    }
+}
+
+/* For large devices (992px and below) */
+@media (max-width: 992px) {
+    /* Adjust the font size of headings */
+    h2 {
+        font-size: 32px;
+    }
+}
+
+/* For extra large devices (1200px and below) */
+@media (max-width: 1200px) {
+    /* Adjust the font size of headings */
+    h2 {
+        font-size: 36px;
+    }
+}

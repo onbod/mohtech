@@ -1,0 +1,392 @@
+body {
+    background-color: black; /* Replace 'background-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100%; /* Ensure the background covers the full height of the viewport */
+}
+
+.navbar-brand img{
+    height: 50px;
+    width: auto;
+}
+.logo img{
+    margin: -30px;
+    height: 90px;
+    width: auto;
+}
+.contact-info{
+    background-color: rgba(0, 0, 0, 0.916);
+    padding: 20px;
+    
+}
+.contact-info p {
+    display: inline-block;
+    margin-right: 20px; /* Adjust as needed */
+    color: white;
+}
+
+
+.navbar {
+background-color: black;
+}
+.navbar-toggler-icon {
+    color: blue;
+    background-color: rgb(73, 1, 243) !important; /* Change color of navbar toggler icon */
+}
+
+.navbar-toggler {
+    border-color: rgb(251, 249, 253) !important; /* Change color of navbar toggler button */
+    color: rgb(246, 244, 248) !important; /* Change color of navbar toggler button icon */
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* Change text color of navigation links */
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(75, 0, 251) !important; /* Change text color of navigation links on hover */
+}
+.navbar-nav{
+    margin-top: 10px;
+    
+}
+.nav-items {
+    margin-left: 50px;
+
+}
+.login{
+    background-color:#afcb1f !important;
+    font-size: 15px !important;
+    font-weight: 600;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+/*login circle code*/
+.profile-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.profile-circle:hover {
+    background-color: #0056b3;
+}
+.profile-info {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+.profile-info.active {
+    display: block;
+    z-index: 3000;
+}
+.logout-btn {
+    margin-top: 10px;
+}
+
+
+.title{
+    margin-top: 150px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 30px;
+}
+.image-container {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #dfdada;
+  }
+  
+  .image-wrapper {
+    padding: 20px; /* Remove default margin for h2 */
+    display: inline-block;
+    width: 45%;
+    height: 400px;
+    text-align: center; /* Align text inside the wrapper */
+  }
+  
+  .card-img {
+    display: block;
+    width: 200px;
+    height: 400px;
+    margin-bottom: 5px; /* Add some space between the image and the text */
+  }
+  
+  .image-wrapper h2 {
+    margin: 0; /* Remove default margin for h2 */
+  }
+  
+
+.card-title{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;   
+}
+.card-body {
+    flex: 0 0 100%; /* Make the card body take full width */
+}
+/* Styling for computer/phone*/
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+h2 span{
+    color: #007bff;
+}
+
+.h2 h2 {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 30px;
+}
+
+.list ul {
+    list-style-type: none;
+    padding-left: 30;
+}
+
+.list ul li {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.list ul li strong {
+    font-weight: bold;
+}
+
+.list ul li:before {
+    content: "\2022"; /* Bullet character */
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+/* Footer Section */
+footer {
+    height:300px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.contact-footer a {
+    color: white;
+}
+.contact h2{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;
+    color:white;
+}
+.about-us{
+    float: left;
+    width: 300px;
+}
+.social-icons{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 100px;
+
+}
+.footer-contact {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.footer-contact a{
+    color: white;
+    text-decoration: none;
+}
+.footer-contact h2,
+.about-us h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;  
+}
+.social-icons h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-bottom: 10px; 
+}
+
+.social-icons a {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.footer-contact p {
+    font-size: 12px;
+    margin: 5px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.container .about-us{
+   width: 500px;
+}
+.container .about-us p{
+    font-size: 12px;
+}
+
+/*form submit message*/
+.thank-you{
+    text-align: center;
+}
+
+/* Custom CSS styles */
+
+/* Media query for screens smaller than 576px (most smartphones) */
+@media (max-width: 576px) {
+    /* Adjust logo size for small mobile devices */
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    /* Center align navigation links for mobile */
+    .navbar-nav {
+        text-align: center;
+    }
+
+    /* Adjust margin for login/signup button on mobile */
+    .login {
+        margin-top: 10px;
+    }
+
+    /* Hide profile circle by default on mobile */
+    .profile-circle {
+        display: none;
+    }
+
+    /* Show profile circle when profile button is clicked */
+    .profile-info.active {
+        display: block;
+    }
+
+    /* Reduce padding in carousel */
+    .carousel-inner {
+        padding-top: 0;
+    }
+
+    /* Reduce carousel height */
+    .carousel-item img {
+        max-height: 200px; /* Adjust as needed */
+    }
+    /* Footer Section */
+footer {
+    height: auto; /* Set height to auto to adjust based on content */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.contact-footer a {
+    color: white;
+}
+
+.contact h2 {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px; /* Adjust font size for smaller screens */
+    font-weight: 300;
+    text-align: center;
+    padding-top: 15px; /* Reduce padding for smaller screens */
+    color: black;
+}
+
+/* Adjust section sizes and spacing for smaller screens */
+.about-us {
+    float: left;
+  max-width: 45%;
+}
+.about-us p{
+    text-align: justify;
+    margin-top: -20px;
+    font-size: 8px;
+    margin-left: 5px;
+}
+
+.social-icons {
+    max-width: 18%;
+    width: 50%; /* Set width to 100% for smaller screens */
+   margin-left: 25px;
+    text-align: center; /* Center align social icons */
+}
+
+.footer-contact {
+    float: right;
+    display: block;
+    width:30%; /* Set width to 100% for smaller screens */
+    margin: 0 auto; /* Center align footer contact */
+    text-align: center; /* Center align footer contact */
+}
+
+/* Adjust font sizes and spacing for smaller screens */
+.footer-contact a,
+.about-us p,
+.social-icons a {
+    font-size: 6px; /* Adjust font size for smaller screens */
+}
+
+.footer-contact h2,
+.about-us h2,
+.social-icons h2 {
+    font-size: 10px; /* Adjust font size for smaller screens */
+    padding-top: 20px; /* Reduce padding for smaller screens */
+    padding-bottom: 10px; /* Reduce padding for smaller screens */
+    margin-left: 30px;
+}
+
+/* Adjust padding and margin for smaller screens */
+.social-icons a {
+    display:block; /* Display social icons inline */
+    margin-right: 10px; /* Add spacing between social icons */
+}
+
+/* Adjust copyright text for smaller screens */
+.copyright {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: -30px;
+    font-size: 8px; /* Adjust font size for smaller screens */
+}
+
+}
